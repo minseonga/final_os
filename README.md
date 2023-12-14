@@ -18,7 +18,7 @@ labels = ['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 images = []
 y = []
 for i in labels:
-    folderPath = os.path.join('C:\\Users\\min seong\\Downloads\\final_project-2\\tumor_dataset\\Training',i)
+    folderPath = os.path.join('./tumor_dataset/Training',i)
     for j in os.listdir(folderPath):
         img = skimage.io.imread(os.path.join(folderPath,j),)
         img = skimage.transform.resize(img,(image_size,image_size))
