@@ -50,8 +50,10 @@ X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 
 # 4. Classification with Scikit Learn Library
 ```python
+
 Knn_Clf1 = KNeighborsClassifier(n_neighbors=1)
 Knn_Clf2 = KNeighborsClassifier(n_neighbors=1)
+
 Svc_Clf1 = SVC(kernel='rbf', C=12, degree=10,gamma=1.0,probability=True, coef0=6)
 Svc_Clf2 = SVC(kernel='rbf', C=10, degree=9,gamma=1.1,probability=True, coef0=5)
 Svc_Clf3 = SVC(kernel='rbf', C=10, degree=9,gamma=1.1,probability=True, coef0=5)
