@@ -60,7 +60,7 @@ Svc_Clf3 = SVC(kernel='rbf', C=10, degree=9,gamma=1.1,probability=True, coef0=5)
 Svc_Clf4 = SVC(kernel='rbf', C=10, degree=10,gamma=1.0,probability=True, coef0=5)
 
 Ex_Tree_Clf1 = ExtraTreesClassifier(n_estimators=3, random_state=869,criterion='entropy')
-Ex_Tree_Clf2 = ExtraTreesClassifier(n_estimators=3, random_state=9285,criterion='entropy')
+Ex_Tree_Clf2 = ExtraTreesClassifier(n_estimators=3, random_state=9000,criterion='entropy')
 Ex_Tree_Clf3 = ExtraTreesClassifier(n_estimators=2000, random_state=8000,max_depth = 30,
                           max_features = 1,
                           min_samples_split = 5,
